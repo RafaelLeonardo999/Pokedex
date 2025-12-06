@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <label>Pokedex</label>
+      <img src='https://archives.bulbagarden.net/media/upload/4/4b/Pokédex_logo.png'/>
       <Typebar 
         setType={setType}
       />

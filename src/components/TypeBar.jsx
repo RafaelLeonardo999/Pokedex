@@ -19,7 +19,9 @@ export default function Typebar({ setType }) {
 
     return (
         <div style={{
-            display: "flex"
+            display: "flex",
+            flexWrap:"wrap",
+            justifyContent:"center",
         }}>
             {
                 types.map((tipoCorrenteDoFor) => {
